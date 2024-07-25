@@ -36,8 +36,8 @@ def ResizeWithAspectRatio(image, width=None, height=None, inter=cv2.INTER_AREA):
 
 
 # input and options
-in_img = '../example_images/figure3.jpg'  # input image filename
-out_dir = '.'  # output directory
+in_img = '/kaggle/input/jhfj-temp/WhatsApp Image 2024-07-16 at 4.02.59 PM.jpeg'  # input image filename
+out_dir = '/kaggle/working/'  # output directory
 # use upgraded_model= 1 to load our new model that is upgraded with new
 # training examples.
 upgraded_model = 0
